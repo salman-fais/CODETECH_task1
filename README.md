@@ -33,4 +33,5 @@ The Python script checks the strength of a password by evaluating it against sev
 **Special Characters:** It checks for the presence of at least one special character.
 **Feedback:** If the password lacks any of these criteria, feedback is provided to help improve the password.
 
-## Final Output: If the password meets all criteria, the script outputs that the password is very strong.
+## Final Output: 
+  If the password meets all criteria, the script outputs that the password is very strong.
