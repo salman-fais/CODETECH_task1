@@ -35,3 +35,6 @@ The Python script checks the strength of a password by evaluating it against sev
 
 ## Final Output: 
   If the password meets all criteria, the script outputs that the password is very strong.
+
+  ![Screenshot 2024-09-04 135512](https://github.com/user-attachments/assets/5b386ce0-9a95-4b08-a232-3607f9915322)
+
