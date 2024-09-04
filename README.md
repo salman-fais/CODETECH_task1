@@ -1,11 +1,9 @@
-# CODETECH_task1
-
-**Name:** SALMAN
-**Company:** CODETECH IT SOLUTIONS
-**ID:** CT08DS5913
-**Domain:** CYBER SECURITY&ETHICAL HACKING
-**Duration:** August 15 to September 15 2024
-**Mentor:** Neela Santhosh Kumar 
+**Name:** SALMANUL FARISI.
+**Company:** CODETECH IT SOLUTIONS.
+**ID:** CT08DS5913.
+**Domain:** CYBER SECURITY&ETHICAL HACKING.
+**Duration:** August 15 to September 15 2024.
+**Mentor:** Neela Santhosh Kumar .
 
 
 ## Overview of the Project
