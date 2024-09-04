@@ -1,0 +1,45 @@
+import re
+
+# common passwords
+common_passwords = [
+    "123456", "password", "123456789", "12345678", "12345", 
+    "1234567", "qwerty", "abc123", "password1", "123123",
+    "admin", "letmein", "welcome", "iloveyou", "monkey",
+    "dragon", "sunshine", "princess", "football", "whatever"
+]
+
+# Ask the user to input a password
+password = input("Enter your password: ")
+
+# Check  the password is common ONE
+if password in common_passwords:
+    print("Your password is too common. Please choose a more unique password.")
+else:
+    # Check the length of the password
+    if len(password) < 8:
+        print("Password is too short, it should be at least 8 characters.")
+    else:
+        # Check for uppercase, lowercase, digits, and special characters
+        has_upper = any(char.isupper() for char in password)
+        has_lower = any(char.islower() for char in password)
+        has_digit = any(char.isdigit() for char in password)
+        has_special = bool(re.search(r"[!@#$%^&*(),.?\":{}|<>]", password))
+
+        # Provide feedback 
+        feedback = []
+        if not has_upper:
+            feedback.append("Add at least one uppercase letter.")
+        if not has_lower:
+            feedback.append("Add at least one lowercase letter.")
+        if not has_digit:
+            feedback.append("Add at least one number.")
+        if not has_special:
+            feedback.append("Add at least one special character.")
+
+        
+        if feedback:
+           
+            for suggestion in feedback:
+                print("- " + suggestion)
+        else:
+            print("Your password is very strong.")
